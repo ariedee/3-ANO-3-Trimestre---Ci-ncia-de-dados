@@ -46,6 +46,10 @@ nav a :hover {
     transition: transform 0.1s;
 }
 
+.grafico{
+    margin-top: 3rem;
+}
+
 .graficos-container{
     margin: 5rem;
 }
@@ -57,12 +61,8 @@ nav a :hover {
     border: var(--secundary-color) solid 2px;
 }
 
-span{
-    font-weight: bold;
-    color: var(--secundary-color);
-}
 
-footer {
+footer{
     display: flex;
     align-items: center;
     justify-content: center;

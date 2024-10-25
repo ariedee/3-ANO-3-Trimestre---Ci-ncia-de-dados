@@ -9,7 +9,7 @@ const quantidadeUsuarios = object.values(dados)
 
 const data = [
     {'--primary-color'
-        X: nomeDasRedes, 
+        x: nomeDasRedes, 
         y: quantidadedeUsuarios,
         type: 'bar',
         marker: {
@@ -20,7 +20,16 @@ const data = [
 
 const layout = {
     plot_bgcolor: getCSS ('--bg-color'),
-    paper_bgcolor: getCSS('--bg-color')
+    paper_bgcolor: getCSS('--bg-color'),
+    title: {
+        text:'Redes sociais com mais usuários no mundo',
+        x: 0,
+        font: {
+            color getCSS ('--primary-color'),
+            family: getCSS('--fonte'),
+            size: 30
+        }
+    }
 }
 
     const grafico = document.createElement('div')
